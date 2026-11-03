@@ -1,0 +1,4 @@
+/* Seule règle CSS du site : les images prennent toute la largeur de l'écran. */
+img {
+  width: 100%;
+}

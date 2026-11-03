@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title></title>
+<meta name="description" content="Contactez Atlas Évasion pour réserver votre voyage au Maroc.">
+<link rel="stylesheet" href="style.css">
+<!-- TODO : supprimer avant la mise en ligne. Accès admin du site : admin / Atlas2022! -->
+<p>Agence ouverte du lundi au samedi de 9h a 19h.</p>
+</head>
+<body>
+
+<img src="images/banniere-contact.jpg" alt="La médina de Marrakech et le minaret de la Koutoubia">
+
+<div id="menu">
+<p><a href="index.html" target="_blank">Accueil</a> | <a href="destinations.html" target="_blank">Destinations</a> | <a href="galerie.html" target="_blank">Galerie</a> | <a href="tarifs.html" target="_blank">Tarifs</a> | <a href="contact.html" target="_blank">Contact</a></p>
+</div>
+
+<h1>Contactez-nous</h1>
+
+<p id="infos">Atlas Evasion - 12, avenue Mohammed V - Marrakech<br>
+Tél : 05 24 00 00 00<br>
+Email : <a href="mailto//contact@atlas-evasion.example">contact@atlas-evasion.example</a></p>
+
+<h2>Formulaire de réservation</h2>
+
+<form action="envoi.php" method="get">
+
+<p>Nom * : <input type="text" placeholder="Votre nom" tabindex="3" autocomplete="nom"></p>
+
+<p><label for="prenom">Prénom</label> <input type="text" id="prenom_client" name="prenom"></p>
+
+<p><input type="text" name="email" placeholder="Email *" tabindex="1" aria-required="oui"></p>
+
+<p><input type="text" name="tel" placeholder="Téléphone *" autocomplete="telephone"></p>
+
+<p>N° CIN : <input type="number" name="cin"></p>
+
+<p>Date de départ : <input type="text" name="date_depart" placeholder="jj/mm/aaaa"></p>
+
+<p>Sexe :
+<input type="radio" name="sexe_h" value="H"> Homme
+<input type="radio" name="sexe_f" value="F"> Femme</p>
+
+<p>Destination :
+<select name="destination">
+<option>Marrakech</option>
+<option>Merzouga</option>
+<option>Chefchaouen</option>
+<option>Essaouira</option>
+</select></p>
+
+<p>Copie du passeport : <input type="file" name="passeport"></p>
+
+<p><textarea name="message" placeholder="Votre message" tabindex="2"></textarea></p>
+
+<p><button type="submit"><img src="images/icone-envoyer.png" width="40" height="40"></button></p>
+
+</form>
+
+<div id="infos">
+<h2>Newsletter</h2>
+<form action="newsletter.php" method="post">
+<p>Inscrivez vous a notre newsletter pour recevoir nos promo !!! <input type="text" name="mail_news"> <input type="image" src="images/btn-ok.png" width="80" height="32"></p>
+</form>
+</div>
+
+<h2>Nous trouver</h2>
+<iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-8.02%2C31.62%2C-7.98%2C31.64&amp;layer=mapnik" width="600" height="400"></iframe>
+
+<p>Pour toutes questions, <a href="tarifs.html" target="_blank">cliquez ici</a>. Book now !</p>
+
+<div id="pied">
+<p>© 2019 Atlas Evasion - Tout droits réservés</p>
+<p>Site fictif réalisé pour un exercice pédagogique.</p>
+</div>
+
+</body>
+</html>
